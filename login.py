@@ -60,14 +60,14 @@ class Login_Window:
         self.txtpass.place(x=40,y=290,width=270)
 
         # =======icon images =======
-        img2=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\loginfront.png")
+        img2=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\loginfront.png")
         img2=img2.resize((25,25),Image.LANCZOS)
         # img1 = img1.resize((100, 100), Image.LANCZOS)
         self.photoimage2=ImageTk.PhotoImage(img2)
         lblimg1=Label(image=self.photoimage2,bg="black",borderwidth=0)
         lblimg1.place(x=620,y=355,width=25,height=25)
 
-        img3=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\pwpng.png")
+        img3=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\pwpng.png")
         img3=img3.resize((25,25),Image.LANCZOS)
         # img1 = img1.resize((100, 100), Image.LANCZOS)
         self.photoimage3=ImageTk.PhotoImage(img3)
