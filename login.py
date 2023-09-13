@@ -27,7 +27,7 @@ class Login_Window:
         self.root.geometry("1550x800+0+0")
 
 
-        self.bg=ImageTk.PhotoImage(file=r"C:\Users\Acer\Desktop\FAS\college_images\Teacher-with-students-1.jpg")
+        self.bg=ImageTk.PhotoImage(file=r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\Teacher-with-students-1.jpg")
 
         lbl_bg=Label(self.root,image=self.bg)
         lbl_bg.place(x=0,y=0,relwidth=1,relheight=1)
@@ -35,7 +35,7 @@ class Login_Window:
         frame=Frame(self.root,bg="black")
         frame.place(x=580,y=170,width=350,height=450)
 
-        img1=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\frontmahan.png")
+        img1=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\frontmahan.png")
         # img1=img1.resize((100,100),Image.ANTIALIAS)
         img1 = img1.resize((100, 100), Image.LANCZOS)
         self.photoimage1=ImageTk.PhotoImage(img1)
