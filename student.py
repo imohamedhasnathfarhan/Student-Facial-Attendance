@@ -30,7 +30,7 @@ class Student:
 
 
         #first image 
-        img=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\icbt.png")
+        img=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\icbt.png")
         # img=img.resize((400,150),Image.ANTIALIAS)
         img = img.resize((400, 150), Image.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
@@ -39,7 +39,7 @@ class Student:
         f_lbl.place(x=50,y=20,width=400,height=100)
 
         #second image
-        img1=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\facialrecognition.png")
+        img1=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\facialrecognition.png")
         # img1=img1.resize((500,130),Image.ANTIALIAS)
         img1 = img1.resize((500, 130), Image.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
@@ -48,7 +48,7 @@ class Student:
         f_lbl.place(x=500,y=0,width=530,height=130)
 
         #third image
-        img2=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\cardiffMetUni.png")
+        img2=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\cardiffMetUni.png")
         # img2=img2.resize((500,130),Image.ANTIALIAS)
         img2 = img2.resize((500, 130), Image.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
@@ -58,7 +58,7 @@ class Student:
 
 
         #background image
-        img3=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\Teacher-with-students-1.jpg")
+        img3=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\Teacher-with-students-1.jpg")
         # img3=img3.resize((1500,710),Image.ANTIALIAS)
         img3 = img3.resize((1500, 710), Image.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
@@ -77,7 +77,7 @@ class Student:
         Left_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Information",font=("Arial",12,"bold"))
         Left_frame.place(x=10,y=10,width=800,height=568)
         
-        img_left=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\student.jpg")
+        img_left=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\student.jpg")
         img_left=img_left.resize((780,130),Image.LANCZOS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
 

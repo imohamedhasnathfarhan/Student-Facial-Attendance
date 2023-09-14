@@ -231,12 +231,12 @@ class Register:
         self.var_confpass=StringVar()
 
         #bg img
-        self.bg=ImageTk.PhotoImage(file=r"C:\Users\Acer\Desktop\FAS\college_images\Teacher-with-students-1.jpg")
+        self.bg=ImageTk.PhotoImage(file=r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\Teacher-with-students-1.jpg")
         bg_lbl=Label(self.root,image=self.bg)
         bg_lbl.place(x=0,y=0,relwidth=1,relheight=1)
 
         #left img
-        self.bg1=ImageTk.PhotoImage(file=r"C:\Users\Acer\Desktop\FAS\college_images\employee.jpg")
+        self.bg1=ImageTk.PhotoImage(file=r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\employee.jpg")
         left_lbl=Label(self.root,image=self.bg1)
         left_lbl.place(x=140,y=150,width=440,height=530)
 
@@ -311,7 +311,7 @@ class Register:
         Checkbtn.place(x=50,y=380)
 
         #buttons
-        img=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\register.png")
+        img=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\register.png")
         img=img.resize((150,50),Image.LANCZOS)
         self.photoimage=ImageTk.PhotoImage(img)
         b1=Button(frame,image=self.photoimage,command=self.register_data,borderwidth=0,cursor="hand2",bg="white")

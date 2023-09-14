@@ -43,7 +43,7 @@ class Attendance:
         f_lbl.place(x=740,y=0,width=800,height=200)
 
         #background image
-        img3=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\Teacher-with-students-1.jpg")
+        img3=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\Teacher-with-students-1.jpg")
         img3=img3.resize((1550,710),Image.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -60,7 +60,7 @@ class Attendance:
         Left_frame=LabelFrame(main_frame,bd=2,bg="white",relief=RIDGE,text="Student Attendance Information",font=("Arial",12,"bold"))
         Left_frame.place(x=10,y=10,width=800,height=468)
 
-        img_left=Image.open(r"C:\Users\Acer\Desktop\FAS\college_images\clg.jpg")
+        img_left=Image.open(r"C:\Users\Acer\Desktop\Facial Attendance System\college_images\clg.jpg")
         img_left=img_left.resize((780,170),Image.LANCZOS)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
 
